@@ -16,15 +16,14 @@ const Hero = () => {
       >
         <div className="">
           <h1 className={`${styles.heroHeadText}  text-white`}>
-            <span className="text-white">Its a me, Luigi</span>
+            <span className="text-white">Pedro Santana</span>
           </h1>
           <p className={`${styles.heroSubText} lg:w-[56%]`}>
-            <span className="">Olá 👋</span> eu sou ex{" "}
+            <span className="">Olá 👋</span> eu sou {" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300">
-              atleta profissional de esports
+              desenvolvedor full-stack
             </span>{" "}
-            e adquiri muitas habilidades interessantíssimas que quero
-            compartilhar com a comunidade de dev.
+              apaixonado por solucionar problemas usando tecnologia!
           </p>
 
           {/* <div className="mt-24 flex justify-evenly"></div> */}
@@ -41,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <LaptopCanvas />
+      {/*<LaptopCanvas /> */}
       {/* <ComputersCanvas /> */}
 
       <div className="lg:flex lg:justify-center lg:items-center">
@@ -53,7 +52,7 @@ const Hero = () => {
         >
           <div className="flex items-center justify-start gap-10">
             <Link
-              to="https://www.instagram.com/luiginicoletti/"
+              to="https://www.instagram.com/pedro_lucas.sant/"
               target="_blank"
               className=""
             >
@@ -63,7 +62,7 @@ const Hero = () => {
               />
             </Link>
             <Link
-              to="https://github.com/Luiginicoletti"
+              to="https://github.com/pedrolucas12"
               target="_blank"
               className=""
             >
@@ -73,21 +72,11 @@ const Hero = () => {
               />
             </Link>
             <Link
-              to="https://www.linkedin.com/in/luiginicolettipro/"
+              to="https://www.linkedin.com/in/pedro-lucas-santana-3a576a204/?originalSubdomain=br"
               target="_blank"
               className=""
             >
               <RiLinkedinFill
-                size={26}
-                className="text-white hover:text-violet-400 transition-all"
-              />
-            </Link>
-            <Link
-              to="https://twitter.com/nicolettiFPS"
-              target="_blank"
-              className=""
-            >
-              <BsTwitter
                 size={26}
                 className="text-white hover:text-violet-400 transition-all"
               />

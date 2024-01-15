@@ -1,5 +1,4 @@
 import {
-  graphql,
   // mobile,
   // backend,
   // creator,
@@ -22,10 +21,12 @@ import {
   metaverse,
   threejs,
   reactninja,
+  python,
   jsninja,
   nextcoder,
   reactzero,
   udemy,
+  usp,
   inprogress,
   alura,
   devhat,
@@ -145,42 +146,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Devhat",
-    company_name: "Frontend JR",
+    title: "Alura",
+    company_name: "JAVA JRE E JDK",
     icon: devhatlogo,
     iconMini: devhatlogo,
     iconBg: "#4FA5E0",
-    date: "Devhat - mar 2023 - Atualmente",
+    date: "02 de janeiro de 2024 - 10 de janeiro de 2024",
     points: [
-      "Desenvolvimento aplicativos da web (ReactJS)",
-      "Interface de programação de aplicativos (API)",
-      "Gerenciamento de contexto com (zustand)",
-      "Desenvolvimento de interfaces de usuário (UI)",
-      "Desenvolvimento de Landing Pages",
-      "Testes automatizados (Jest)",
-      "Testes unitários (React Testing Library)",
-      "Controle de versão colaborativa com (Git)",
-      "Desenvolvimento de aplicativos mobile (React Native)",
-      "Desenvolvimento de aplicativos desktop (Electron)",
-      "Codigo limpo e consistente  (ESLint & Prettier)",
-      "Estilização (TailwindCSS, sass, styled-components)",
+      "JVM? JDK? JRE? O que são essas siglas?",
+      "Compilando e executando código java",
+      "Aprenda a usar Eclipse",
+      "Variáveis e controle de fluxo",
+      "Conheça os principais tipos do Java"
     ],
   },
   {
-    title: "ReactNinja",
-    company_name: "ReactJS - 91.5 Horas",
+    title: "Udemy",
+    company_name: "Lógica de Programação e Algoritmos",
     icon: reactninja,
     iconMini: udemy,
     iconBg: "#151d42",
-    date: "Last courses 2023",
+    date: "13 de dezembro de 2021",
 
     points: [
-      "React Ninja (91.5 Horas)",
-      "Javascript Ninja (43 Horas)",
-      "Ultimate-Next14-course (50 Horas)",
-      "https://www.jsmastery.pro/ultimate-next-course",
-      "Alura (26) Cursos Concluídos",
-      "https://cursos.alura.com.br/user/callmenicoletti",
+      "30 Horas de Curso",
+      "Variáveis, entrada, saída, processamento, estrutura sequencial, estrutura condicional, estruturas repetitivas, vetores e matrizes",
+      "Aplicar todos conhecimentos e resolver todos exercícios nas linguagens C, C++, Python, C# e Java",
+    ],
+  },
+  {
+    title: "Usp",
+    company_name: "Python 3 - Do zero ao avançado",
+    icon: python,
+    iconMini: usp,
+    iconBg: "#151d42",
+    date: "4 de fevereiro de 2021",
+    points: [
+      "45 Horas de Curso",
+      "Ciência da Computação destinado aos alunos regulares da Universidade de São Paulo e a todos os demais interessados em aprender não só a programar em Python",
+      "Principais conceitos introdutórios de Ciência da Computação",
+      "USP - Universidade de São Paulo",
+      "O curso definitivo de Lógica de Programação. Do VisualG às principais linguagens do mercado: C, C++, Python, C# e Java",
     ],
   },
 ];
@@ -214,154 +220,125 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Devhat",
+    name: "Paula App",
     description:
-      "A institutional 3D LP FOR @Devhat OP project built with React Three Fiber and Three JS.",
+      "Aplicativo de alfabetização para o Governo do Distrito Federal em parceria com a Universidade de Brasília.",
     tags: [
       {
-        name: "React three fiber",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "ThreeJS",
+        name: "Dart",
         color: "pink-text-gradient",
       },
 
       {
-        name: "Tailwind",
+        name: "SQL",
         color: "blue-text-gradient",
       },
     ],
     image: devhat,
-    source_code_link: "https://github.com/Luiginicoletti/devhat",
-    link: "https://devhat-eight.vercel.app/",
+    source_code_link: "https://github.com/pedrolucas12/Paula-app",
+    link: "https://github.com/pedrolucas12/Paula-app",
   },
 
   {
-    name: "Contact 3D",
+    name: "UniShare",
     description:
-      "A simple contact section with a 3D animation built with React Three Fiber.",
+      "O objetivo do UniBuddy é auxiliar, de forma organizada e prática, no encontro entre motoristas dispostos a oferecer carona solidária e passageiros que precisam recebê-las.",
     tags: [
       {
-        name: "React",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
 
       {
-        name: "Tailwind",
+        name: "SQL",
         color: "blue-text-gradient",
       },
       {
-        name: "React Three Fiber",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
     image: contact3d,
-    source_code_link: "https://github.com/Luiginicoletti/contact3d",
-    link: "https://contact3d.vercel.app/",
+    source_code_link: "https://github.com/pedrolucas12/UniShare",
+    link: "https://github.com/pedrolucas12/UniShare",
   },
 
   {
-    name: "JSM",
+    name: "Personal - Website",
     description:
-      "A landing page for product with a filter and a search bar built with React",
+      "Landing Page of Personal Trainer",
     tags: [
       {
-        name: "React",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
 
       {
-        name: "Tailwind",
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "GraphQl",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "ApolloClient",
+        name: "HTML",
         color: "white-text-gradient",
       },
     ],
     image: jsm,
-    source_code_link: "https://github.com/Luiginicoletti/jsm",
-    link: "jsm-model.vercel.app",
+    source_code_link: "https://github.com/pedrolucas12/PersonalTrainerWebsite",
+    link: "https://personaltrainer-eight.vercel.app",
   },
 
   {
-    name: "IgniteLAB",
+    name: "Projeto Java ",
     description:
-      "A on demand video plataform with scheduled release via HandleCMS.",
+      "É um pequeno sistema para gerenciar os funcionários dos setores.",
     tags: [
       {
-        name: "React",
+        name: "Java",
         color: "blue-text-gradient",
       },
 
       {
-        name: "Tailwind",
+        name: "TomCat",
         color: "blue-text-gradient",
       },
       {
-        name: "GraphQl",
+        name: "SQL",
         color: "pink-text-gradient",
       },
       {
-        name: "ApolloClient",
+        name: "Hibernate",
         color: "white-text-gradient",
       },
     ],
     image: ignitelab,
-    source_code_link: "https://github.com/Luiginicoletti/PROJECT-videoOnDemand",
-    link: "https://ignitelab-brown.vercel.app/",
+    source_code_link: "https://github.com/pedrolucas12/Hepta_PedroLucas",
+    link: "https://github.com/pedrolucas12/Hepta_PedroLucas",
   },
   {
-    name: "Carhub",
+    name: "Crud - React JS",
     description:
-      "A car rent project built in the newest next13 with some APIs and clean code SSR/CSR.",
+      "Este projeto utiliza tecnologias modernas, incluindo React para o frontend, Node.js para o backend, e SQL para a persistência de dados.",
     tags: [
       {
-        name: "Next13+",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Node JS",
         color: "blue-text-gradient",
       },
       {
-        name: "FastCar API",
+        name: "SQL",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/Luiginicoletti/PROJECT-car-rent",
-    link: "https://car-rent-gamma.vercel.app/",
-  },
-  {
-    name: "Metaverse",
-    description: "A beautiful and modern SPA built with some UI/UX stuffs.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "FramerMotion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "UI/UX",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: metaverse,
-    source_code_link: "https://github.com/Luiginicoletti/metaverse",
-    link: "https://metaverse-alpha-one.vercel.app/",
+    source_code_link: "https://github.com/pedrolucas12/pedr_desafio_icts",
+    link: "https://github.com/pedrolucas12/pedr_desafio_icts",
   },
 ];
 

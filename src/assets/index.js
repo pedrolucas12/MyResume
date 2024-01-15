@@ -19,8 +19,7 @@ import devhatlogo from "./company/devhatlogo.jpg";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import graphql from "./tech/graphql.png";
+import threejs from "./tech/threejs.jpg";
 
 import jsm from "./jsm.jpg";
 import devhat from "./devhat.jpg";
@@ -31,11 +30,13 @@ import contact3d from "./contact3d.jpg";
 
 import alura from "./company/alura.png";
 import udemy from "./company/udemy.png";
+import usp from "./company/usp.png";
 import reactzero from "./company/reactzero.jpg";
 import nextcoder from "./company/nextcoder.jpg";
 import jsninja from "./company/jsninja.jpg";
 import inprogress from "./company/inprogress.jpg";
 import reactninja from "./company/reactninja.jpg";
+import python from "./company/python.png";
 import jest from "./company/jest.jpg";
 
 export {
@@ -49,8 +50,8 @@ export {
   jest,
   alura,
   udemy,
+  usp,
   logo,
-  graphql,
   github,
   menu,
   close,
@@ -71,5 +72,6 @@ export {
   ignitelab,
   metaverse,
   reactninja,
+  python,
   devhatlogo,
 };
