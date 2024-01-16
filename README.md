@@ -1,4 +1,4 @@
-# Oi, meu nome e Luigi e esse e meu portfolio.
+#Pedro Lucas Santana
 
 Seja bem-vindo(a) ao meu portfolio onde eu tento colocar minha criatividade encima das tecnologias que eu aprendo. Como desenvolvedor focado em Creative Development e Interactive Design, estou animado para apresentar algumas das tecnologias e ferramentas que utilizo para dar vida aos meus projetos.
 
