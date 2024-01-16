@@ -149,7 +149,6 @@ const experiences = [
     iconMini: udemy,
     iconBg: "#151d42",
     date: "13 de dezembro de 2021",
-
     points: [
       "30 Horas de Curso",
       "Variáveis, entrada, saída, processamento, estrutura sequencial, estrutura condicional, estruturas repetitivas, vetores e matrizes",
@@ -168,7 +167,6 @@ const experiences = [
       "Ciência da Computação destinado aos alunos regulares da Universidade de São Paulo e a todos os demais interessados em aprender não só a programar em Python",
       "Principais conceitos introdutórios de Ciência da Computação",
       "USP - Universidade de São Paulo",
-      "O curso definitivo de Lógica de Programação. Do VisualG às principais linguagens do mercado: C, C++, Python, C# e Java",
     ],
   },
 ];
@@ -227,7 +225,7 @@ const projects = [
   {
     name: "Personal - Website",
     description:
-      "Landing Page of Personal Trainer",
+      "Uma página web para um personal trainer, com o objetivo de divulgar seu trabalho e atrair novos clientes.",
     tags: [
       {
         name: "JavaScript",
@@ -251,7 +249,7 @@ const projects = [
   {
     name: "Projeto Java ",
     description:
-      "É um pequeno sistema para gerenciar os funcionários dos setores.",
+      "Sistema de gerenciamento de funcionários em Java, utilizando o Hibernate e banco de dados MySQL.",
     tags: [
       {
         name: "Java",
@@ -276,9 +274,9 @@ const projects = [
     link: "https://github.com/pedrolucas12/Hepta_PedroLucas",
   },
   {
-    name: "Crud - React JS",
+    name: "Projeto FullStack",
     description:
-      "Este projeto utiliza tecnologias modernas, incluindo React para o frontend, Node.js para o backend, e SQL para a persistência de dados.",
+      "Sistema de cadastro de produtos que utilizam tecnologias modernas, incluindo React e Node.js, e SQL para a persistência de dados.",
     tags: [
       {
         name: "React JS",
