@@ -15,13 +15,13 @@ const Marquee = () => {
           bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent
           "
           >
-            50%POWERED-BY-GAMES {' '} 〰 {' '} 50%POWERED-BY-KNOWLEDGE {' '} 〰 {' '}
+            SOLUCOES {' '} 〰 {' '} TECNOLOGICAS {' '} 〰 {' '}
           </span>
           <span
             className="border-t-2 border-b-2 lg:text-7xl text-4xl font-extrabold transition-all opacity-5
           bg-gradient-to-r from-green-400 via-blue-400 to-violet-500 bg-clip-text text-transparent"
           >
-            50%POWERED-BY-GAMES {' '} 〰 {' '} 50%POWERED-BY-KNOWLEDGE {' '} 〰 {' '} 
+            SOLUCOES {' '} 〰 {' '} TECNOLOGICAS {' '} 〰 {' '} 
           </span>
         </motion.div>
       </div>

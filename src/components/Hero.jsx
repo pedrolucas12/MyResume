@@ -19,7 +19,7 @@ const Hero = () => {
             <span className="text-white">Pedro Santana</span>
           </h1>
           <p className={`${styles.heroSubText} lg:w-[56%]`}>
-            <span className="">Olá 👋</span> eu sou {" "}
+            <span className="">Olá 👋</span> sou um {" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300">
               desenvolvedor full-stack
             </span>{" "}

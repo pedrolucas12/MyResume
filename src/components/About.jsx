@@ -18,11 +18,12 @@ const About = () => {
         variants={fadeIn("", "", 1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-       Desenvolvedor brasileiro, <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300">
-        apaixonado por criar coisas usando tecnologia!
+       Desenvolvedor full-stack, <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300">
+        com mais de 3 anos de expertise em React, Node, e MySQL. 
         </span>
-        ! Estou utilizando React, Node e
-          SQL para desenvolver aplicações web interativas de alta qualidade   {" "}
+        Além de gerenciar projetos, participei do desenvolvimento de um aplicativo de alfabetização em parceria 
+        com a Universidade de Brasília. Minha paixão por resolver problemas usando tecnologia se reflete em minha busca contínua por aprendizado. 
+          {" "}
 
          
          
