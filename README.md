@@ -76,12 +76,12 @@ Curso de 45 horas abordando os fundamentos da programação em Python 3, com ên
 
 Para entrar em contato ou discutir possíveis colaborações, sinta-se à vontade para me contatar. Estou ansioso para desafios que inspirem a criatividade de ambos os lados.
 
-![Imagem 1](https://github.com/Luiginicoletti/porffolio_new/assets/17785028/b214eb14-d7a2-48d2-9e8c-28617a87debf)
+![Imagem 1](https://github.com/pedrolucas12/MyResume/blob/main/src/assets/site/site1.png)
 
-![Imagem 2](https://github.com/Luiginicoletti/porffolio_new/assets/17785028/85387884-e5a9-463f-90da-f4c7bcbced46)
+![Imagem 2](https://github.com/pedrolucas12/MyResume/blob/main/src/assets/site/site2.png)
 
-![Imagem 3](https://github.com/Luiginicoletti/porffolio_new/assets/17785028/c78589b8-2258-4759-bf8a-b5573b353412)
+![Imagem 3](https://github.com/pedrolucas12/MyResume/blob/main/src/assets/site/site3.png)
 
-![Imagem 4](https://github.com/Luiginicoletti/porffolio_new/assets/17785028/8392ea0d-a9ba-4f35-a874-5f31a6488ddf)
+![Imagem 4](https://github.com/pedrolucas12/MyResume/blob/main/src/assets/site/site4.png)
 
-![Imagem 5](https://github.com/Luiginicoletti/porffolio_new/assets/17785028/5df7d9d0-be42-4136-bc5f-61114b180929)
+![Imagem 5](https://github.com/pedrolucas12/MyResume/blob/main/src/assets/site/site5.png)
