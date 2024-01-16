@@ -7,6 +7,8 @@ import { ComputersCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -33,8 +35,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_o51cla3",
-        "template_wkqhixd",
+        "service_ded9jbj",
+        "template_kdw7gt1",
         {
           from_name: form.name,
           to_name: "Pedro",
@@ -42,12 +44,12 @@ const Contact = () => {
           to_email: "pedrolucassantana@gmail.com",
           message: form.message,
         },
-        "7RBMcuR5IPGtThZa2"
+        "UQYBMe2j-tMFVyC9W"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Muito obrigado pelo contato! Retornarei em breve");
 
           setForm({
             name: "",
@@ -59,7 +61,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert(`Ocorreu um erro ao enviar a mensagem. Detalhes: ${error.message}`);
         }
       );
   };

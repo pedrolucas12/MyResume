@@ -22,6 +22,9 @@ import {
   threejs,
   reactninja,
   python,
+  ceritificadoUNB,
+  miniUNB,
+  Simbolo_da_UnB,
   jsninja,
   nextcoder,
   reactzero,
@@ -54,40 +57,6 @@ export const navLinks = [
   },
 ];
 
-// const services = [
-//   {
-//     title: "TEAM WORK",
-//     icon: web,
-//   },
-//   {
-//     title: "CONSISTENCE",
-//     icon: mobile,
-//   },
-//   {
-//     title: "CREATIVITY",
-//     icon: backend,
-//   },
-//   {
-//     title: "COMUNICATION",
-//     icon: creator,
-//   },
-//   {
-//     title: "DISCIPLINE",
-//     icon: web,
-//   },
-//   {
-//     title: "HUNHER FOR KNOWLEDGE",
-//     icon: mobile,
-//   },
-//   {
-//     title: "DECISION MAKING",
-//     icon: backend,
-//   },
-//   {
-//     title: "PROBLEM SOLVING",
-//     icon: creator,
-//   },
-// ];
 
 const technologies = [
   {
@@ -146,6 +115,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "UnB",
+    company_name: "UnB - Engenharia de Software",
+    icon: Simbolo_da_UnB,
+    iconMini: miniUNB,
+    iconBg: "#4FA5E0",
+    date: "02 de janeiro de 2020 - 10 de dezembro de 2025",
+    points: [
+        "Graduação cultivada com excelência, destacando-se por uma abordagem prática e inovadora. ",
+        "Os alunos são imersos em ambientes colaborativos, estimulando a criatividade e o trabalho em equipe.",
+        "A ênfase na resolução de problemas do mundo real definem a formação",
+    ],
+  },
+  {
     title: "Alura",
     company_name: "JAVA JRE E JDK",
     icon: devhatlogo,
@@ -191,32 +173,7 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+
 
 const projects = [
   {
@@ -342,4 +299,4 @@ const projects = [
   },
 ];
 
-export { technologies, experiences, testimonials, projects };
+export { technologies, experiences, projects };

@@ -30,6 +30,9 @@ import contact3d from "./contact3d.jpg";
 
 import alura from "./company/alura.png";
 import udemy from "./company/udemy.png";
+import ceritificadoUNB from "./company/certificadoUnB.png";
+import miniUNB from "./company/miniUNB.png";
+import Simbolo_da_UnB from "./company/Simbolo_da_UnB.png";
 import usp from "./company/usp.png";
 import reactzero from "./company/reactzero.jpg";
 import nextcoder from "./company/nextcoder.jpg";
@@ -50,6 +53,9 @@ export {
   jest,
   alura,
   udemy,
+  ceritificadoUNB,
+  miniUNB,
+  Simbolo_da_UnB,
   usp,
   logo,
   github,
