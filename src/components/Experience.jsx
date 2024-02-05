@@ -16,7 +16,7 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#050816",
+        background: "#C6A969",
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "15px solid  #050816" }}
@@ -50,9 +50,9 @@ const ExperienceCard = ({ experience }) => {
         <img className="" src={experience.icon} alt={experience.company_name} />
 
         <div className="absolute bottom-0">
-          <h3 className="text-white text-[2px] font-bold"></h3>
+          <h3 className="text-[#597E52] text-[2px] font-bold"></h3>
           <p
-            className="text-secondary text-[16px] font-semibold"
+            className="text-[#597E52] text-[16px] font-semibold"
             style={{ margin: 0 }}
           >
             {experience.company_name}
@@ -67,8 +67,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>minhas</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Formações</h2>
+        <p className={`${styles.sectionSubText} text-center`}>Nossas</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Experiências</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
