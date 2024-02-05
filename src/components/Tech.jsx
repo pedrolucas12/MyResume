@@ -13,7 +13,6 @@ const Tech = () => {
     
       {technologies.map((technology) => (
         <div className='w-28 h-28 hover:scale-105 transition-all' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
         </div>
       ))}
     </div>

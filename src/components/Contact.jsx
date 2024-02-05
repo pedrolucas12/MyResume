@@ -7,6 +7,8 @@ import { ComputersCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import RybenaScript from "../RybenaScript";
+
 import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
 
 const Contact = () => {
@@ -69,12 +71,14 @@ const Contact = () => {
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      rybena-alt-text
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className={`flex-[0.75] p-8 rounded-2xl ${styles.contactContainer}`}
       >
-        <p className={styles.sectionSubText}>Fale comigo</p>
+        <RybenaScript />
+        <p className={styles.sectionSubText}>Fale Conosco</p>
         <h3 className={styles.sectionHeadText}>Contato</h3>
 
         <form
@@ -82,40 +86,47 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
-          <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Seu nome</span>
-            <input
-              type="text"
-              name="name"
-              value={form.name}
-              onChange={handleChange}
-              placeholder="Como posso chama-lo?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Seu email</span>
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="Qual seu email?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Sua mensagem</span>
-            <textarea
-              rows={7}
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="No que está pensando?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
+  <label className="flex flex-col">
+  <span className="text-white font-medium mb-4">Seu nome</span>
+  <input
+    type="text"
+    name="name"
+    value={form.name}
+    onChange={handleChange}
+    placeholder="Como posso chama-lo?"
+    className="py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+    style={{ background: "#597E52" }}
+    rybena-alt-text
+  />
+</label>
 
+<label className="flex flex-col">
+  <span className="text-white font-medium mb-4">Seu email</span>
+  <input
+    type="email"
+    name="email"
+    value={form.email}
+    onChange={handleChange}
+    placeholder="Qual seu email?"
+    className="py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+    style={{ background: "#597E52" }}
+    rybena-alt-text
+  />
+</label>
+
+<label className="flex flex-col">
+  <span className="text-white font-medium mb-4">Sua mensagem</span>
+  <textarea
+    rows={7}
+    name="message"
+    value={form.message}
+    onChange={handleChange}
+    placeholder="No que está pensando?"
+    className="py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+    style={{ background: "#597E52" }}
+    rybena-alt-text
+  />
+</label>
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"

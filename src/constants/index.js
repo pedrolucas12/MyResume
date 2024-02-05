@@ -8,7 +8,6 @@ import {
   html,
   css,
   reactjs,
-  devhatlogo,
   redux,
   tailwind,
   nodejs,
@@ -16,44 +15,33 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  ignitelab,
-  metaverse,
   threejs,
-  reactninja,
-  python,
-  ceritificadoUNB,
-  miniUNB,
-  Simbolo_da_UnB,
-  jsninja,
-  nextcoder,
-  reactzero,
-  udemy,
-  usp,
-  inprogress,
-  alura,
-  devhat,
-  contact3d,
-  jsm,
-  jest,
+  cafeIcon,
+  miniCafeIcon,
+  academiaCafeIcon,
+  degustacaoIcon,
+  blendIcon,
+  ambienteIcon,
+  cursoCafeIcon,
+  inovacaoIcon
 } from "../assets";
 
-export const navLinks = [
+const navLinks = [
   {
     id: "about",
-    title: "Sobre",
+    title: "Sobre nós",
   },
   {
     id: "works",
-    title: "Projetos",
+    title: "Nosso Menu",
   },
   {
     id: "experiences",
-    title: "Formações",
+    title: "Nossas Experiências",
   },
   {
     id: "contact",
-    title: "Contato",
+    title: "Fale Conosco",
   },
 ];
 
@@ -113,188 +101,131 @@ const technologies = [
   },
 ];
 
+// Seção de Experiências
 const experiences = [
   {
-    title: "UnB",
-    company_name: "UnB - Engenharia de Software",
-    icon: Simbolo_da_UnB,
-    iconMini: miniUNB,
-    iconBg: "#4FA5E0",
-    date: "02 de janeiro de 2020 - 10 de dezembro de 2025",
+    title: "Origens do Café",
+    company_name: "Cafeteria - Especialidade em Grãos Únicos",
+    icon: cafeIcon,
+    iconMini: miniCafeIcon,
+    iconBg: "#964B00",
+    date: "01 de janeiro de 2019 - Atualmente",
     points: [
-        "Graduação cultivada com excelência, destacando-se por uma abordagem prática e inovadora. ",
-        "Os alunos são imersos em ambientes colaborativos, estimulando a criatividade e o trabalho em equipe.",
-        "A ênfase na resolução de problemas do mundo real definem a formação",
+        "Exploração contínua dos melhores grãos de café de todo o mundo para oferecer uma experiência única aos nossos clientes.",
+        "Participação em competições de baristas, elevando nossas habilidades e conhecimentos.",
+        "Compromisso com a qualidade e sustentabilidade, apoiando fazendas de café responsáveis.",
     ],
   },
   {
-    title: "Alura",
-    company_name: "JAVA JRE E JDK",
-    icon: devhatlogo,
-    iconMini: devhatlogo,
-    iconBg: "#4FA5E0",
-    date: "02 de janeiro de 2024 - 10 de janeiro de 2024",
+    title: "Treinamento de Baristas",
+    company_name: "Academia do Café",
+    icon: academiaCafeIcon,
+    iconMini: academiaCafeIcon,
+    iconBg: "#964B00",
+    date: "15 de fevereiro de 2020 - 20 de dezembro de 2020",
     points: [
-      "JVM? JDK? JRE? O que são essas siglas?",
-      "Compilando e executando código java",
-      "Aprenda a usar Eclipse",
-      "Variáveis e controle de fluxo",
-      "Conheça os principais tipos do Java"
+      "Curso intensivo de aprimoramento das habilidades de baristas, desde técnicas básicas até arte avançada do latte.",
+      "Experiência prática em criação de receitas exclusivas, combinando café e ingredientes premium.",
+      "Participação em eventos de degustação e harmonização, proporcionando aos clientes uma experiência sensorial completa.",
     ],
   },
   {
-    title: "Udemy",
-    company_name: "Lógica de Programação e Algoritmos",
-    icon: reactninja,
-    iconMini: udemy,
-    iconBg: "#151d42",
-    date: "13 de dezembro de 2021",
+    title: "Aromas e Sabores",
+    company_name: "Curso de Degustação de Café",
+    icon: degustacaoIcon,
+    iconMini: degustacaoIcon,
+    iconBg: "#964B00",
+    date: "10 de janeiro de 2021",
     points: [
-      "30 Horas de Curso",
-      "Variáveis, entrada, saída, processamento, estrutura sequencial, estrutura condicional, estruturas repetitivas, vetores e matrizes",
-      "Aplicar todos conhecimentos e resolver todos exercícios nas linguagens C, C++, Python, C# e Java",
-    ],
-  },
-  {
-    title: "Usp",
-    company_name: "Python 3 - Do zero ao avançado",
-    icon: python,
-    iconMini: usp,
-    iconBg: "#151d42",
-    date: "4 de fevereiro de 2021",
-    points: [
-      "45 Horas de Curso",
-      "Ciência da Computação destinado aos alunos regulares da Universidade de São Paulo e a todos os demais interessados em aprender não só a programar em Python",
-      "Principais conceitos introdutórios de Ciência da Computação",
-      "USP - Universidade de São Paulo",
+      "Workshop imersivo explorando os diversos aromas e sabores presentes nos diferentes tipos de grãos.",
+      "Identificação de notas sensoriais, proporcionando uma linguagem rica para descrever as experiências de degustação.",
+      "Certificado de especialista em avaliação de café, destacando a paixão pela qualidade e excelência.",
     ],
   },
 ];
 
-
-
+// Seção de Projetos
 const projects = [
   {
-    name: "Paula App",
+    name: "Blend Exclusivo",
     description:
-      "Aplicativo de alfabetização para o Governo do Distrito Federal em parceria com a Universidade de Brasília.",
+      "Criação de um blend exclusivo, combinando grãos selecionados de diferentes regiões para oferecer aos clientes uma experiência única.",
     tags: [
       {
-        name: "Flutter",
-        color: "blue-text-gradient",
+        name: "Sabor Único",
+        color: "brown-text-gradient",
       },
       {
-        name: "Dart",
-        color: "pink-text-gradient",
+        name: "Origens Variadas",
+        color: "green-text-gradient",
       },
-
       {
-        name: "SQL",
-        color: "blue-text-gradient",
+        name: "Edição Limitada",
+        color: "gold-text-gradient",
       },
     ],
-    image: devhat,
-    source_code_link: "https://github.com/pedrolucas12/Paula-app",
-    link: "https://github.com/pedrolucas12/Paula-app",
-  },
-
-  {
-    name: "UniShare",
-    description:
-      "O objetivo do UniBuddy é auxiliar, de forma organizada e prática, no encontro entre motoristas dispostos a oferecer carona solidária e passageiros que precisam recebê-las.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "SQL",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: contact3d,
-    source_code_link: "https://github.com/pedrolucas12/UniShare",
-    link: "https://github.com/pedrolucas12/UniShare",
-  },
-
-  {
-    name: "Personal - Website",
-    description:
-      "Uma página web para um personal trainer, com o objetivo de divulgar seu trabalho e atrair novos clientes.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "white-text-gradient",
-      },
-    ],
-    image: jsm,
-    source_code_link: "https://github.com/pedrolucas12/PersonalTrainerWebsite",
-    link: "https://personaltrainer-eight.vercel.app",
-  },
-
-  {
-    name: "Projeto Java ",
-    description:
-      "Sistema de gerenciamento de funcionários em Java, utilizando o Hibernate e banco de dados MySQL.",
-    tags: [
-      {
-        name: "Java",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "TomCat",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SQL",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Hibernate",
-        color: "white-text-gradient",
-      },
-    ],
-    image: ignitelab,
-    source_code_link: "https://github.com/pedrolucas12/Hepta_PedroLucas",
-    link: "https://github.com/pedrolucas12/Hepta_PedroLucas",
+    image: blendIcon,
   },
   {
-    name: "Projeto FullStack",
+    name: "Ambiente Aconchegante",
     description:
-      "Sistema de cadastro de produtos que utilizam tecnologias modernas, incluindo React e Node.js, e SQL para a persistência de dados.",
+      "Renovação completa do ambiente da cafeteria, focando em proporcionar uma atmosfera acolhedora e convidativa para os clientes.",
     tags: [
       {
-        name: "React JS",
-        color: "blue-text-gradient",
+        name: "Design de Interiores",
+        color: "brown-text-gradient",
       },
       {
-        name: "Node JS",
-        color: "blue-text-gradient",
+        name: "Aconchego",
+        color: "orange-text-gradient",
       },
       {
-        name: "SQL",
-        color: "pink-text-gradient",
+        name: "Experiência do Cliente",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/pedrolucas12/pedr_desafio_icts",
-    link: "https://github.com/pedrolucas12/pedr_desafio_icts",
+    image: ambienteIcon,
+  },
+  {
+    name: "Curso de Café",
+    description:
+      "Desenvolvimento de um curso especializado em café, abordando desde o cultivo dos grãos até as técnicas avançadas de preparo.",
+    tags: [
+      {
+        name: "Educação Café",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cultivo Sustentável",
+        color: "brown-text-gradient",
+      },
+      {
+        name: "Certificado Incluso",
+        color: "gold-text-gradient",
+      },
+    ],
+    image: cursoCafeIcon,
+  },
+  {
+    name: "Inovação em Receitas",
+    description:
+      "Experimentação e criação de novas receitas de café, explorando ingredientes exclusivos para surpreender os paladares mais exigentes.",
+    tags: [
+      {
+        name: "Receitas Criativas",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ingredientes Premium",
+        color: "gold-text-gradient",
+      },
+      {
+        name: "Degustação Guiada",
+        color: "brown-text-gradient",
+      },
+    ],
+    image: inovacaoIcon,
   },
 ];
 
-export { technologies, experiences, projects };
+export { navLinks, technologies, experiences, projects };

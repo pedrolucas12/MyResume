@@ -2,41 +2,27 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-// import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const About = () => {
+const AboutUs = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Um pouco</p>
-        <h2 className={styles.sectionHeadText}>Sobre mim</h2>
+        <p className={styles.sectionSubText}>Um Gole de Rybena</p>
+        <h2 className={styles.sectionHeadText}>Sobre a Cafeteria Rybena</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[#F1E4C3] max-w-3xl leading-[30px]"
       >
-       Desenvolvedor full-stack, <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300">
-        com mais de 3 anos de expertise em React, Node, e MySQL. 
-        </span>
-        Além de gerenciar projetos, participei do desenvolvimento de um aplicativo de alfabetização em parceria 
-        com a Universidade de Brasília. Minha paixão por resolver problemas usando tecnologia se reflete em minha busca contínua por aprendizado. 
-          {" "}
+       Apaixonados por café e tecnologia, somos a Cafeteria Rybena, um lugar onde a magia da cafeína encontra a inovação digital. Como baristas do mundo da programação, contamos com mais de 3 anos de experiência em misturar ingredientes como React, Node e MySQL para criar um sabor único na web.
 
-         
-         
-         
-        {" "}
-        
-      
-        
-
+        Junte-se a nós na jornada onde cada linha de código é uma nota em nossa sinfonia digital, e cada visita à nossa cafeteria é uma degustação de novas descobertas tecnológicas. Bem-vindo à Cafeteria Rybena, onde o café encontra a inovação em cada xícara.
       </motion.p>
-
     </>
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(AboutUs, "about");
