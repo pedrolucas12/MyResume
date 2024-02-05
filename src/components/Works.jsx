@@ -3,7 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { degustacaoIcon } from "../assets";
+import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -25,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-brown-100 p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
       <a href={link} target="_blank">
         <div className='relative w-full h-[230px]'>
@@ -37,10 +37,11 @@ const ProjectCard = ({
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
+              onClick={() => window.open(source_code_link, "_blank")}
               className='bg-violet-500 animate-pulse hover:brightness-125 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={degustacaoIcon}
+                src={github}
                 alt='source code'
                 className='w-9 h-w-9 brightness-200  object-contain '
               />
@@ -75,7 +76,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Veja meus</p>
-        <h2 className={`${styles.sectionHeadText}`}>Diferenciais</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Últimos projetos.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -83,7 +84,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-         Aqui estão algumas das coisas incríveis que fizemos. A cada visita à nossa cafeteria é uma degustação de novas descobertas tecnológicas.
+         Aqui estão alguns dos meus projetos favoritos, incluindo trabalhos reais e projetos de cursos. Que tal trabalharmos juntos nessa?
         </motion.p>
       </div>
 
